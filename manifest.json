@@ -1,0 +1,16 @@
+{
+    "name": "Color Picker",
+    "description": "This is a color picker extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background":{
+        "service_worker":"background.js"
+    },
+    "icons":{
+        "512": "logos/001-color-wheel.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "scripting"]
+}
